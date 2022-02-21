@@ -1,7 +1,48 @@
-.bg-red{
-    background-color: red;
+/* generic */
+main{
+    width: 1500px;
+    margin: auto;
+    color: white;
+}
+
+h1{
+    color: black;
+}
+
+.row{
+    margin-bottom: 2px;
+}
+
+/* utility */
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-lightgreen{
+    background-color: lightgreen;
 }
 
 .height50{
     height: 50px;
 }
+
+.border-white{
+    border: 1px solid white;
+}
+
+.padding1px{
+    padding: 1px;
+}
+
+/* content */
+
+.text{
+    text-align: center;
+    line-height: 50px;
+}
+
+.nested-row{
+    padding: 20px;
+}
+

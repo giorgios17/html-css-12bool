@@ -5,13 +5,16 @@ main{
     color: white;
 }
 
-h1{
+h1, h2{
     color: black;
-    margin-top: 10px;
 }
 
 .row{
     margin-bottom: 2px;
+}
+
+.section{
+    margin-bottom: 70px;
 }
 
 /* utility */
@@ -27,6 +30,9 @@ h1{
 .height50{
     height: 50px;
 }
+.height100{
+    height: 100px;
+}
 
 .border-white{
     border: 1px solid white;
@@ -40,6 +46,11 @@ h1{
     margin-top: 60px;
 }
 
+.w100{
+    width: 100%;
+}
+
+
 /* content */
 
 .text{
@@ -51,3 +62,20 @@ h1{
     padding: 20px;
 }
 
+.flex-middle{
+    display: flex;
+    align-items: center;
+}
+
+.flex-bottom{
+    display: flex;
+    align-items: flex-end;
+}
+
+#space-around{
+    justify-content: space-around;
+}
+
+#space-between{
+    justify-content: space-between;
+}

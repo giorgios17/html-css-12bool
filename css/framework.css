@@ -125,7 +125,7 @@
     }
     .col-sm-5{
         flex-basis: calc((100% / 12) * 5);
-        max-width: calc((/100% / 12) * 5);
+        max-width: calc((100% / 12) * 5);
     }
     .col-sm-6{
         flex-basis: calc((100% / 12) * 6);
@@ -133,7 +133,7 @@
     }
     .col-sm-7{
         flex-basis: calc((100% / 12) * 7);
-        max-width: calc((/100% / 12) * 7);
+        max-width: calc((100% / 12) * 7);
     }
     .col-sm-8{
         flex-basis: calc((100% / 12) * 8);
